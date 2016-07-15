@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\RadioButton.csproj", "{05C4FAE7-7C48-4961-89EB-706D08916E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1C1158EF-DD11-40B4-A9A9-A5CD6E3E2BDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{34AAFDBB-D07B-4AEA-81D2-C180DE567EDA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\ConfigureWebServer.ps1 = PublishScripts\Scripts\ConfigureWebServer.ps1
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{91F32408-4A5D-4ABF-A5F4-AA7529849E70}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\RadioButton.json = PublishScripts\Templates\RadioButton.json
+		PublishScripts\Templates\RadioButton.param.dev.json = PublishScripts\Templates\RadioButton.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C4FAE7-7C48-4961-89EB-706D08916E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C4FAE7-7C48-4961-89EB-706D08916E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C4FAE7-7C48-4961-89EB-706D08916E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C4FAE7-7C48-4961-89EB-706D08916E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34AAFDBB-D07B-4AEA-81D2-C180DE567EDA} = {1C1158EF-DD11-40B4-A9A9-A5CD6E3E2BDD}
+		{91F32408-4A5D-4ABF-A5F4-AA7529849E70} = {1C1158EF-DD11-40B4-A9A9-A5CD6E3E2BDD}
+	EndGlobalSection
+EndGlobal
